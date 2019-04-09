@@ -17,7 +17,7 @@
                BlueprintIdentifier = "BFB677521AE6B8D3007DC28B"
                BuildableName = "PathMenu.framework"
                BlueprintName = "PathMenu"
-               ReferencedContainer = "container:PathMenu.xcodeproj">
+               ReferencedContainer = "container:v.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "6E11BB171A531AC3000C37D5"
             BuildableName = "PathMenu-Sample.app"
             BlueprintName = "PathMenu-Sample"
-            ReferencedContainer = "container:PathMenu.xcodeproj">
+            ReferencedContainer = "container:v.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,7 +57,7 @@
             BlueprintIdentifier = "BFB677521AE6B8D3007DC28B"
             BuildableName = "PathMenu.framework"
             BlueprintName = "PathMenu"
-            ReferencedContainer = "container:PathMenu.xcodeproj">
+            ReferencedContainer = "container:v.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,7 +75,7 @@
             BlueprintIdentifier = "BFB677521AE6B8D3007DC28B"
             BuildableName = "PathMenu.framework"
             BlueprintName = "PathMenu"
-            ReferencedContainer = "container:PathMenu.xcodeproj">
+            ReferencedContainer = "container:v.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

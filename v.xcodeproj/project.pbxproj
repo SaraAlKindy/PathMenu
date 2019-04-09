@@ -334,11 +334,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E11BB131A531AC3000C37D5 /* Build configuration list for PBXProject "PathMenu" */;
+			buildConfigurationList = 6E11BB131A531AC3000C37D5 /* Build configuration list for PBXProject "v" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -662,7 +663,7 @@
 				PROVISIONING_PROFILE = "f3bd9f9c-c781-4a84-a4b9-d221e4ac54ef";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -690,7 +691,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f3bd9f9c-c781-4a84-a4b9-d221e4ac54ef";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -744,7 +745,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E11BB131A531AC3000C37D5 /* Build configuration list for PBXProject "PathMenu" */ = {
+		6E11BB131A531AC3000C37D5 /* Build configuration list for PBXProject "v" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E11BB351A531AC4000C37D5 /* Debug */,
