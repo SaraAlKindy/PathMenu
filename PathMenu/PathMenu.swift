@@ -143,7 +143,7 @@ public class PathMenu: UIView {
     
     public func handleTap() {
         let selector: Selector
-        let angle: CGFloat
+        //let angle: CGFloat
         
         switch motionState {
         case .close:
@@ -152,18 +152,21 @@ public class PathMenu: UIView {
             selector = #selector(expand)
             flag = 0
             motionState = .expand
-            angle = (CGFloat.pi / 4) + CGFloat.pi
+            //angle = (CGFloat.pi / 4) + CGFloat.pi
         case .expand:
             delegate?.willStartAnimationClose(on: self)
             selector = #selector(close)
             flag = menuItems.count - 1
             motionState = .close
-            angle = 0
+            //angle = 0
         }
         
-        UIView.animate(withDuration: Double(startMenuAnimationDuration)) { [weak self] () -> Void in
-            self?.startButton?.transform = CGAffineTransform(rotationAngle: angle)
-        }
+        //rotation animation is scaling when the placement of the start PathMenuItem is close to bottom bar
+        //the corners of the frame are hindering the bottom bar so ios scales it
+        
+//        UIView.animate(withDuration: Double(startMenuAnimationDuration)) { [weak self] () -> Void in
+//            self?.startButton?.transform = CGAffineTransform(rotationAngle: angle)
+//        }
         
         if timer == nil {
             timer = Timer.scheduledTimer(timeInterval: Double(timeOffset), target: self, selector: selector, userInfo: nil, repeats: true)
